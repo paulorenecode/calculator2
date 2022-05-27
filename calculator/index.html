@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="./javascript/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="calculator">
+        <!----- Screen ---->
+        <div class="screen">
+          <div class="screen-last" data-previous></div>
+          <div class="screen-current" data-current>0</div>
+        </div>
+
+        <!----- Buttons ---->
+        <div class="btns">
+          <button data-number>7</button>
+          <button data-number>8</button>
+          <button data-number>9</button>
+          <button class="btn-darker" data-del>DEL</button>
+          <button data-number>4</button>
+          <button data-number>5</button>
+          <button data-number>6</button>
+          <button class="btn-darker" data-operator>+</button>
+          <button data-number>1</button>
+          <button data-number>2</button>
+          <button data-number>3</button>
+          <button class="btn-darker" data-operator>-</button>
+          <button data-dot>.</button>
+          <button data-number>0</button>
+          <button data-operator>/</button>
+          <button class="btn-darker" data-operator>x</button>
+          <button class="btn-darker reset" data-reset>Reset</button>
+          <button class="equal" data-equal>=</button>
+        </div>
+      </div>
+    </div>
+    
+    <!----- Footer ---->
+    <footer>
+      <p>Developed by:</p>
+      <a href="https://github.com/paulorenecode" target="_blank">
+         <i class="fab fa-github"></i>
+        <span>Paulo Almeida</span>
+      </a>
+    </footer>
+
+  </body>
+</html>
